@@ -1,0 +1,6 @@
+E:\Projects\WebApi2Ext\WebApi2Ext\WebApi2Ext\obj\Debug\netcoreapp3.1\WebApi2Ext.vbprojAssemblyReference.cache
+E:\Projects\WebApi2Ext\WebApi2Ext\WebApi2Ext\obj\Debug\netcoreapp3.1\WebApi2Ext.AssemblyInfoInputs.cache
+E:\Projects\WebApi2Ext\WebApi2Ext\WebApi2Ext\obj\Debug\netcoreapp3.1\WebApi2Ext.AssemblyInfo.vb
+E:\Projects\WebApi2Ext\WebApi2Ext\WebApi2Ext\obj\Debug\netcoreapp3.1\WebApi2Ext.vbproj.CoreCompileInputs.cache
+E:\Projects\WebApi2Ext\WebApi2Ext\WebApi2Ext\bin\Debug\netcoreapp3.1\WebApi2Ext.deps.json
+E:\Projects\WebApi2Ext\WebApi2Ext\WebApi2Ext\bin\Debug\netcoreapp3.1\WebApi2Ext.dll
