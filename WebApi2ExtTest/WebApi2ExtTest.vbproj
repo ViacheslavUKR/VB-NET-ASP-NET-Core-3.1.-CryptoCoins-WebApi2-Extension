@@ -6,10 +6,6 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="appsettings.Development.json" />
-    <None Remove="appsettings.json" />
-  </ItemGroup>
 
   <ItemGroup>
     <Content Include="appsettings.Development.json">
@@ -22,6 +18,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WebApi2Ext\WebApi2Ext\WebApi2Ext.vbproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="BinanceExcangeInfo.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

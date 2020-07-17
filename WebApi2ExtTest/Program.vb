@@ -3,15 +3,12 @@ Imports WebApi2Ext
 
 Module Program
 
-    Dim BinanceTrades2 As List(Of TradeModel)
+
     Dim BinanceExchangeSymbols As List(Of BinanceExchangeSymbol)
     Dim BTCCost As Double
 
     Dim Coingecko As WebApi2
     Dim Binance As WebApi2
-
-
-
 
     Sub Main(args As String())
 
@@ -19,9 +16,10 @@ Module Program
         Coingecko = New WebApi2("https://api.coingecko.com")
 
         GetBinanceExchangeInfo()
-        GetBTCCurrentAveragePrice()
+        Console.WriteLine($"{BinanceExchangeSymbols.Count} coin pairs trade in Binace.com")
 
-
+        'GetBTCCurrentAveragePrice()
+        Console.WriteLine($"BTCCost={BTCCost}")
     End Sub
 
 #Region "Tick=0, Fixed or Dynamic ExcangeInfo from Binance"

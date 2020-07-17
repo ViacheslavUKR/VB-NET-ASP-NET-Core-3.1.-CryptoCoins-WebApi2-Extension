@@ -23,7 +23,8 @@ Public Module BinanceAPIExtension
     Public Function BinanceApiExchangeInfo(Binance As WebApi2, ByRef BinanceExchangeSymbols As List(Of BinanceExchangeSymbol)) As Boolean
         Dim Info = Binance.GetWithoutAU("/api/v3/exchangeInfo")
         If Info.IsSuccess Then
-            Dim TradesArr1 As JArray = JArray.Parse(Info.Result)
+            Dim Res1 As JObject = JObject.Parse(Info.Result)
+            Dim TradesArr1 As JArray = JArray.Parse(Res1.SelectToken("symbols").ToString)
             BinanceExchangeSymbols = JsonConvert.DeserializeObject(Of List(Of BinanceExchangeSymbol))(TradesArr1.ToString)
             Return True
         Else

@@ -1,18 +1,17 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v3.1",
+    "name": ".NETCoreApp,Version=v5.0",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "WebApi2Ext/1.0.0": {
+    ".NETCoreApp,Version=v5.0": {
+      "WebApi2ExtTest/1.0.0": {
         "dependencies": {
-          "Newtonsoft.Json": "12.0.3",
-          "System.IdentityModel.Tokens.Jwt": "6.7.1"
+          "WebApi2Ext": "1.0.0"
         },
         "runtime": {
-          "WebApi2Ext.dll": {}
+          "WebApi2ExtTest.dll": {}
         }
       },
       "Microsoft.CSharp/4.5.0": {},
@@ -68,11 +67,20 @@
           }
         }
       },
-      "System.Security.Cryptography.Cng/4.5.0": {}
+      "System.Security.Cryptography.Cng/4.5.0": {},
+      "WebApi2Ext/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "System.IdentityModel.Tokens.Jwt": "6.7.1"
+        },
+        "runtime": {
+          "WebApi2Ext.dll": {}
+        }
+      }
     }
   },
   "libraries": {
-    "WebApi2Ext/1.0.0": {
+    "WebApi2ExtTest/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -125,6 +133,11 @@
       "sha512": "sha512-WG3r7EyjUe9CMPFSs6bty5doUqT+q9pbI80hlNzo2SkPkZ4VTuZkGWjpp77JB8+uaL4DFPRdBsAY+DX3dBK92A==",
       "path": "system.security.cryptography.cng/4.5.0",
       "hashPath": "system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    },
+    "WebApi2Ext/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
